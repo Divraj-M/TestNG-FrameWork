@@ -1,70 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-25T19:48:33 IST" name="Suite" finished-at="2025-03-25T19:48:42 IST" duration-ms="8828">
+  <suite started-at="2025-03-25T20:06:01 IST" name="Suite" finished-at="2025-03-25T20:06:06 IST" duration-ms="5227">
     <groups>
     </groups>
-    <test started-at="2025-03-25T19:48:33 IST" name="search" finished-at="2025-03-25T19:48:42 IST" duration-ms="8828">
-      <class name="DataProviders.DP2503">
-        <test-method is-config="true" signature="setup()[pri:0, instance:DataProviders.DP2503@36d585c]" started-at="2025-03-25T19:48:34 IST" name="setup" finished-at="2025-03-25T19:48:36 IST" duration-ms="2347" status="PASS">
+    <test started-at="2025-03-25T20:06:01 IST" name="search" finished-at="2025-03-25T20:06:06 IST" duration-ms="5227">
+      <class name="DataProviders.DataProviderStart2503">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DataProviders.DataProviderStart2503@5bf0d49]" started-at="2025-03-25T20:06:01 IST" name="setup" finished-at="2025-03-25T20:06:03 IST" duration-ms="2569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:DataProviders.DP2503@36d585c]" started-at="2025-03-25T19:48:34 IST" name="setup" finished-at="2025-03-25T19:48:36 IST" duration-ms="2347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:DataProviders.DP2503@36d585c]" started-at="2025-03-25T19:48:34 IST" name="setup" finished-at="2025-03-25T19:48:36 IST" duration-ms="2346" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="search(java.lang.String)[pri:0, instance:DataProviders.DP2503@36d585c]" started-at="2025-03-25T19:48:36 IST" name="search" data-provider="excelData" finished-at="2025-03-25T19:48:42 IST" duration-ms="5674" status="PASS">
+        <test-method signature="search(java.lang.String)[pri:0, instance:DataProviders.DataProviderStart2503@5bf0d49]" started-at="2025-03-25T20:06:03 IST" name="search" data-provider="testData" finished-at="2025-03-25T20:06:04 IST" duration-ms="149" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Automation Tester]]>
+                <![CDATA[Selenium]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method signature="search(java.lang.String)[pri:0, instance:DataProviders.DP2503@36d585c]" started-at="2025-03-25T19:48:36 IST" name="search" data-provider="excelData" finished-at="2025-03-25T19:48:42 IST" duration-ms="5510" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:DataProviders.DataProviderStart2503@5bf0d49]" started-at="2025-03-25T20:06:04 IST" name="teardown" finished-at="2025-03-25T20:06:04 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:DataProviders.DataProviderStart2503@5bf0d49]" started-at="2025-03-25T20:06:04 IST" name="setup" finished-at="2025-03-25T20:06:06 IST" duration-ms="2008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search(java.lang.String)[pri:0, instance:DataProviders.DataProviderStart2503@5bf0d49]" started-at="2025-03-25T20:06:06 IST" name="search" data-provider="testData" finished-at="2025-03-25T20:06:06 IST" duration-ms="219" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[selenium]]>
+                <![CDATA[TestNG]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method signature="search(java.lang.String)[pri:0, instance:DataProviders.DP2503@36d585c]" started-at="2025-03-25T19:48:36 IST" name="search" data-provider="excelData" finished-at="2025-03-25T19:48:42 IST" duration-ms="5419" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[performance tester]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="teardown()[pri:0, instance:DataProviders.DataProviderStart2503@5bf0d49]" started-at="2025-03-25T20:06:06 IST" name="teardown" finished-at="2025-03-25T20:06:06 IST" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DataProviders.DP2503@36d585c]" started-at="2025-03-25T19:48:42 IST" name="afterMethod" finished-at="2025-03-25T19:48:42 IST" duration-ms="179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DataProviders.DP2503@36d585c]" started-at="2025-03-25T19:48:42 IST" name="afterMethod" finished-at="2025-03-25T19:48:42 IST" duration-ms="150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:DataProviders.DP2503@36d585c]" started-at="2025-03-25T19:48:42 IST" name="afterMethod" finished-at="2025-03-25T19:48:42 IST" duration-ms="126" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- DataProviders.DP2503 -->
+        </test-method> <!-- teardown -->
+      </class> <!-- DataProviders.DataProviderStart2503 -->
     </test> <!-- search -->
   </suite> <!-- Suite -->
 </testng-results>
