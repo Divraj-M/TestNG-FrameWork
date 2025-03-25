@@ -88,7 +88,7 @@
   </test>
 
 </suite> -->
-<suite name="Suite" parallel="methods" thread-count="3" data-provider-thread-count="2">
+<suite name="Suite" parallel="methods" thread-count="3" data-provider-thread-count="3">
   <test name="search">
     <classes>
       <class name="DataProviders.DP2503"/>
