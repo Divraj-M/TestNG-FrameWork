@@ -3,6 +3,8 @@
   <groupId>com.Test1</groupId>
   <artifactId>TestNG1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <name>expleo_sample</name>
+  <url>http://www.example.com</url>
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -24,14 +26,6 @@
     <artifactId>hamcrest-all</artifactId>
     <version>1.3</version>
     <scope>test</scope>
-</dependency>
- 
-
-
-  	<dependency>
-  		<groupId>expleo</groupId>
-  		<artifactId>expleo_sample</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
 </dependency>
   	<dependency>
     <groupId>org.apache.poi</groupId>
